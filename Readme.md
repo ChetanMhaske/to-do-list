@@ -10,3 +10,8 @@ You need to add this link in head Tag of HTML as a script tag src
 <pre>
 https://cdn.tailwindcss.com
 </pre>
+
+# How To Clone?
+<pre>
+git clone https://github.com/ChetanMhaske/to-do-list.git
+</pre>
