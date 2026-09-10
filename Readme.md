@@ -15,7 +15,7 @@ https://cdn.tailwindcss.com
 
 # How You can Contribute
 <pre>
-# Clone their fork
+# Clone your fork
 git clone https://github.com/YOUR_USERNAME/to-do-list.git
 
 # Enter project
