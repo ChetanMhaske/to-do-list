@@ -26,27 +26,27 @@
 
                 <div class=" font-bold flex gap-3 justify-center items-center
                    text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px]"
-                >Today <img src="/FrontEnd/Project/projectAssets/Sun.png" class="w-15 h-15 lg:w-25 lg:h-25 rounded-full" alt=""></div>
+                >Today <img src="projectAssets/Sun.png" class="w-15 h-15 lg:w-25 lg:h-25 rounded-full" alt=""></div>
                 <div class="flex flex-col gap-3 text-[12px] sm:text-[18px] lg:text-[24px]">
-                    <div>Raise the Bar by Completing your goals!</div>
-                    <div class="p-2 rounded-[20px] bg-green-200 h-[20px]"></div>
+                    <div id="barmsg" class="text-gray-600 text-[14px]">Raise the Bar by Completing your goals!</div>
+                    <div id="bar" class="p-2 flex items-center rounded-[20px] bg-green-500 h-[30px] text-[12px]"></div>
                 </div>
 
                 <div class="flex flex-col gap-5 text-[12px] sm:text-[18px] lg:text-[24px]">
                     <span id="selected" class="text-red-500">
-                        Please select all the goals
+                        Please add new goal
                     </span>
-                    <div class="border border-black rounded-[20px] bg-amber-100 w-full max-w-2xl min-h-[50px] mr-10 flex items-center">
+                    <div class="border border-black rounded-[20px] w-full max-w-2xl min-h-[50px] mr-10 flex items-center">
                         <input type="checkbox" name="radio1" id="radio1" class="ml-3 cursor-pointer appearance-none w-1/12 max-w-[20px] aspect-square border border-gray-400 checked:bg-green-500 rounded-full">
                         <input type="text" placeholder="Add new Goal" class="w-full bg-transparent mr-10 p-5 outline-none" name="" id="rad1">
                     </div>
                     <div class="border border-black rounded-[20px] w-full max-w-2xl min-h-[50px] mr-10 flex items-center">
                         <input type="checkbox" name="radio2" id="radio2" class="ml-3 cursor-pointer appearance-none w-1/12 max-w-[20px] aspect-square border border-gray-400 checked:bg-green-500 rounded-full">
-                        <input type="text" placeholder="Add new Goal" class="w-full mr-10 p-5 outline-none" name="" id="">
+                        <input type="text" placeholder="Add new Goal" class="w-full mr-10 p-5 outline-none" name="" id="rad2">
                     </div>
                     <div class="border border-black rounded-[20px] w-full max-w-2xl min-h-[50px] mr-10 flex items-center">
                         <input type="checkbox" name="radio3" id="radio3" class="ml-3 cursor-pointer appearance-none w-1/12 max-w-[20px] aspect-square border border-gray-400 checked:bg-green-500 rounded-full">
-                        <input type="text" placeholder="Add new Goal" class="w-full bg-transparent mr-10 p-5 outline-none" name="" id="">
+                        <input type="text" placeholder="Add new Goal" class="w-full bg-transparent mr-10 p-5 outline-none" name="" id="rad3">
                     </div>
                 </div>
             </div>
