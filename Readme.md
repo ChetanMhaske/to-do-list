@@ -11,7 +11,30 @@ You need to add this link in head Tag of HTML as a script tag src
 https://cdn.tailwindcss.com
 </pre>
 
-# How To Clone?
+
+
+# How You can Contribute
 <pre>
-git clone https://github.com/ChetanMhaske/to-do-list.git
+# Clone their fork
+git clone https://github.com/YOUR_USERNAME/to-do-list.git
+
+# Enter project
+cd to-do-list
+
+# Connect original repository
+git remote add upstream https://github.com/ChetanMhaske/to-do-list.git
+
+# Create feature branch
+git switch -c my-feature
+
+# Make changes...
+
+# Stage
+git add .
+
+# Commit
+git commit -m "Describe my changes"
+
+# Push feature branch to their fork
+git push -u origin my-feature
 </pre>
