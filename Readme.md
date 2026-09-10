@@ -1,4 +1,4 @@
-# Steps to run
+# JUST GIT REVISION
 
 ## NPM and Node Installation
 node -v
