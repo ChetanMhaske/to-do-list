@@ -34,7 +34,7 @@ chk3.addEventListener('change',()=>{
 
 let goals = document.querySelectorAll("#rad1, #rad2, #rad3")
 const message = document.querySelector("#selected");
-console.log(goals)
+
 goals.forEach(goal => {
     goal.addEventListener('input', () => {
         if (
@@ -91,3 +91,43 @@ chk.forEach(check => {
         }
     })
 })
+
+
+radio1.value = localStorage.getItem("radio1")
+radio1.addEventListener('input', () => {
+    localStorage.setItem("radio1",radio1.value.trim())
+})
+
+
+radio2.value = localStorage.getItem("radio2")
+radio2.addEventListener('input', () => {
+    localStorage.setItem("radio2",radio2.value.trim())
+})
+
+
+radio3.value = localStorage.getItem("radio3")
+radio3.addEventListener('input', () => {
+    localStorage.setItem("radio3",radio3.value.trim())
+})
+
+
+function checkGoals() {
+
+    if (
+        goals[0].value.trim() !== "" &&
+        goals[1].value.trim() !== "" &&
+        goals[2].value.trim() !== ""
+    ) {
+        message.textContent = "";
+        message.style.color = "green";
+    }
+    else {
+        message.textContent = "Please add new Goal";
+        message.style.color = "red";
+    }
+}
+
+// let body = document.querySelector("body")
+// body.addEventListener("change", checkGoals);
+
+checkGoals();
